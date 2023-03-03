@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo-nutreteam3.jpg" type="image/x-icon">
+    <!--link de google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=PT+Serif:ital@0;1&family=Playball&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/prueba-imc.css">
+    <title>Nutre Teams | Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>Nutre Teams</h1>
+    </header>
+    <fieldset>
+        <form>
+            <div class="contenedor">
+                <div class="cuerpo-calc">
+                    <legend>CALCULADORA DE IMC</legend>
+                        <div class="contenido">
+                            <div class="input">
+                                <label for="Altura">Altura</label>
+                                <input type="number" placeholder="Altura en metros" id="altura">
+                            </div>
+                            <div class="input">
+                                <label for="Peso">Peso</label>
+                                <input type="number" placeholder="Peso en kg" id="Peso">
+                            </div>
+                            <button id="calcular">Calcular IMC</button>
+                        </div>
+                        <div class="resultado">Resultado</div>
+                            <p>Su IMC es: </p>
+                        <div id="resultado">00.00</div>
+                            <p class="comentario">Su Rango esta en: <span id="comentario">| Peso Normal |</span></p>
+                    
+                        </div>
+                </div>
+        </form>
+
+    </fieldset>
+    <script src="/main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <fieldset class="borde-form">
+                        <form class="espace-form">
+                            <legend class="titulo-form">Calculadora de Indice de Masa Corporal</legend>
+                            <hr>
+                            <div class="peso">
+                                <label for="peso" class="font">Peso (kg):</label>
+                                <input type="number" id="peso" name="peso" required>
+
+                                <label for="altura" class="font">Altura (mts):</label>
+                                <input type="number" id="altura" name="altura" required>
+                                <hr>
+                            </div>
+                        </form>
+                        <div class="altura" class="btnImc" id="space-imc">
+                        <button id="calcularImc">Calcular</button>
+                            <hr>
+                            <p>
+                                <span id="imc">Su IMC es: </span>
+                            </p>
+                            <p>
+                                <span id="resultado">Usted esta en un rango: </span>
+                            </p>
+                        -->
